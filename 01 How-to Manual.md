@@ -34,3 +34,17 @@
 - Summarize key decisions with **justifications** and **trade-offs**.
 - Ensure the design meets all stated requirements.
 - Suggest **potential improvements** and **future directions**.
+
+
+**For Example ---**
+
+_I am not sure if I am right as I am a beginner, I am just listing what came to my mind as components for an image sharing service._
+
+1. User Registration/SignIn service.
+2. A Followers/Following DB Structure so that users can follow each other.
+3. An API for the User to POST an image. 
+4. A GET API for other users to view the images posted.
+5. An ML model served through an API for recommending people to follow other users.
+6. Like and Comment option
+7. Block/ Report option
+    
