@@ -18,9 +18,7 @@
 
 **Tangible Entities[Technolgy]**
 
-For Example ---# 🛠️ System Design Primer Course 
-🎥 **Watch:** [sudoCODE - System Design Primer Course](https://www.youtube.com/playlist?list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a)
-
+For Example ---# 
 ## ✅ Basic System Requirements:
 - 🗃️ **Database** – To store and persist data.  
 - 🖥️ **Server** – Handles requests, supports APIs, and allows scalability.  
