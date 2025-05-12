@@ -34,6 +34,12 @@ _I am not sure if I am right as I am a beginner, I am just listing what came to 
 2. A Followers/Following DB Structure so that users can follow each other.
 3. An API for the User to POST an image. 
 4. A GET API for other users to view the images posted.
+
+
+
+## 🛠️ Client Server Architecture
+
+   
 5. An ML model served through an API for recommending people to follow other users.
 6. Like and Comment option
 7. Block/ Report option
