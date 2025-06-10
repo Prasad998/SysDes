@@ -105,6 +105,7 @@ I've categorized them based on themes, with key notes on what each problem is re
 ---
 
 📌 *Like this list? Feel free to fork and build your own mental map for systems!*  
+
 🧠 *Remember: depth > breadth. Focus on tradeoffs, constraints, and real-world scalability.*
 
 ---
