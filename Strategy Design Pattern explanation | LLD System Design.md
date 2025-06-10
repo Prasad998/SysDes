@@ -1,10 +1,5 @@
-# Creating markdown content for Strategy Design Pattern with UML diagram and examples
-
-markdown_content = """
-# 🧩 Strategy Design Pattern – Hindi Explanation (LLD Style)
-
+## 🧩 Strategy Design Pattern – Hindi Explanation (LLD Style)
 ---
-
 ## 📘 Definition:
 The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
