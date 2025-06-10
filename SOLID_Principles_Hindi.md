@@ -29,6 +29,22 @@ class InvoicePrinter { void printInvoice() {} }
 class InvoiceRepository { void saveToDatabase() {} }
 ```
 
+### ✅ UML Diagram:
+```plaintext
++-----------------------+         +---------------------+
+| InvoiceCalculator     |         | InvoicePrinter      |
+|-----------------------|         |---------------------|
+| + calculateTotal()    |         | + printInvoice()    |
++-----------------------+         +---------------------+
+                 \_________________
+                  \
+                   \
+             +-------------------------+
+             | InvoiceRepository       |
+             |-------------------------|
+             | + saveToDatabase()      |
+             +-------------------------+
+```
 ---
 
 ## 🟠 2. O – Open/Closed Principle (OCP)
@@ -74,7 +90,28 @@ class DiscountCalculator {
     }
 }
 ```
+```plaintext
+           +------------------------+
+           |    DiscountStrategy    |<----------------------+
+           |------------------------|                       |
+           | + getDiscount()        |                       |
+           +------------------------+                       |
+                    ^                                        |
+     +-----------------------------+      +-----------------------------+
+     | RegularCustomer             |      | PremiumCustomer             |
+     |-----------------------------|      |-----------------------------|
+     | + getDiscount()             |      | + getDiscount()             |
+     +-----------------------------+      +-----------------------------+
 
+                           |
+                           v
+            +-----------------------------+
+            |     DiscountCalculator      |
+            |-----------------------------|
+            | - strategy: DiscountStrategy|
+            | + calculateDiscount()       |
+            +-----------------------------+
+```
 ---
 
 ## 🟡 3. L – Liskov Substitution Principle (LSP)
@@ -113,6 +150,24 @@ class Ostrich implements Bird {
     public void eat() {}
 }
 ```
+### ✅ UML Diagram:
+```plaintext
+       +--------------------+
+       |     Bird           |
+       |--------------------|
+       | + eat()            |
+       +--------------------+
+               ^
+               |
+   +--------------------+      +----------------------+
+   |    Sparrow         |      |      Ostrich         |
+   |--------------------|      |----------------------|
+   | + eat()            |      | + eat()              |
+   | + fly()            |      |                      |
+   +--------------------+      +----------------------+
+
+✅ Bird interface को दो हिस्सों में divide करके Ostrich और Sparrow का सही abstraction हुआ।
+```
 
 ---
 
@@ -150,6 +205,23 @@ class Human implements Workable, Eatable {
 class Robot implements Workable {
     public void work() {}
 }
+```
+### ✅ UML Diagram:
+```plaintext
+     +--------------------+         +--------------------+
+     |    Workable        |         |     Eatable        |
+     |--------------------|         |--------------------|
+     | + work()           |         | + eat()            |
+     +--------------------+         +--------------------+
+
+           ^                               ^
+           |                               |
+   +----------------+              +------------------+
+   |     Robot      |              |     Human        |
+   |----------------|              |------------------|
+   | + work()       |              | + work()         |
+   |                |              | + eat()          |
+   +----------------+              +------------------+
 ```
 
 ---
@@ -200,6 +272,30 @@ class Switch {
     }
 }
 ```
+### ✅ UML Diagram:
+```plaintext
+       +----------------------+
+       |    Switchable        |<---------------------+
+       |----------------------|                      |
+       | + turnOn()           |                      |
+       +----------------------+                      |
+              ^                                      ^
+              |                                      |
+   +-------------------+               +--------------------+
+   |    LightBulb      |               |       Fan          |
+   |-------------------|               |--------------------|
+   | + turnOn()        |               | + turnOn()         |
+   +-------------------+               +--------------------+
+
+                         |
+                         v
+             +----------------------+
+             |       Switch         |
+             |----------------------|
+             | - device: Switchable |
+             | + operate()          |
+             +----------------------+
+```
 
 ---
 
@@ -216,3 +312,22 @@ class Switch {
 ---
 
 > 🚀 ये principles Low-Level Design में strong foundation देते हैं। इन्हें समझो, याद रखो और अपने design में apply करो!
+
+
+# 🔷 SOLID Principles with UML Diagrams (Hindi + Visuals)
+
+---
+
+## 1️⃣ S – Single Responsibility Principle (SRP)
+
+## 2️⃣ O – Open/Closed Principle (OCP)
+
+## 3️⃣ L – Liskov Substitution Principle (LSP)
+
+## 4️⃣ I – Interface Segregation Principle (ISP)
+
+## 5️⃣ D – Dependency Inversion Principle (DIP)
+---
+
+
+
