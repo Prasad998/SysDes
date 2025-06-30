@@ -143,3 +143,102 @@ I’m currently a Senior Software Engineer at Microsoft (7+ years). I get a LOT 
 - Think in “milestones”, start with a simple version, then add scale, performance, or reliability.
 - If you don’t know something, say so, and show how you’d learn or validate in real life.
 - Always mention trade-offs: No system is perfect; every design has costs.
+---
+
+# 🚀 Google SWE III - Machine Learning Interview Experience
+
+I recently got the incredible opportunity to interview with **Google** for the **Software Engineer III – Machine Learning** position. This turned out to be one of the **best interview experiences** I've had so far!
+
+---
+
+## 📩 How It Started
+
+Despite applying to several roles on Google’s careers page with no response, I was eventually contacted **out of the blue** by a Google recruiter via **LinkedIn and email**.  
+She asked for my resume, and after a quick review, invited me to schedule a **📞 phone screening**.
+
+---
+
+## ☎️ Phone Screening
+
+In this initial conversation, I shared:
+- My background & work experience
+- Proficiency in **Data Structures & Algorithms**
+- Experience in **Machine Learning** and **Deep Learning**
+
+The recruiter was kind enough to give me **a month to prepare**. I filled out a form to confirm availability for further rounds.
+
+---
+
+## 🧩 Interview Rounds Overview
+
+- **3 Coding Rounds** – Focused on DSA
+- **1 ML Round** – Theoretical + practical
+- **1 Googliness/Behavioral Round**
+
+---
+
+## 🧠 Preparation & Warm-ups
+
+### ✅ Group Preparation Session (1 Hour)
+- Discussed interview structure, expectations, and doubts.
+
+### ✅ Mock Interview (45 mins)
+- Practiced coding in Google Docs (no IDE support).
+- Helped get comfortable with the interview format.
+
+---
+
+## 🔍 Preliminary Coding Round (45 mins)
+
+- ✅ 1 Warm-up: List comprehension
+- ✅ 1 Medium: Tree-based problem
+- ✅ 1 Hard: Dynamic programming
+
+> 🎉 Cleared with a **Strong Hire** rating!
+
+---
+
+## 💻 Technical Interview Rounds
+
+### 🔹 1st Technical Interview (45 mins)
+- **Topic:** Dynamic Programming, 2D Arrays  
+- **Difficulty:** Leetcode Medium  
+- **Outcome:** ✅ **Strong Hire**
+
+Walked through my approach, coded, dry-ran, and discussed time complexity.
+
+---
+
+### 🔹 2nd Technical Interview (45 mins)
+- **Topic:** Trees, DFS, DP  
+- **Difficulty:** Leetcode Hard  
+- **Outcome:** ✅ **Hire**
+
+Solved quickly, handled follow-ups, and discussed complexities.
+
+---
+
+### 🔹 3rd Technical Interview (45 mins)
+- **Topic:** Dynamic Programming, Heap, Arrays  
+- **Difficulty:** Leetcode Hard  
+- **Outcome:** ✅ **Lean Hire**
+
+This was the most challenging. I iterated based on feedback, dry-ran test cases, and addressed edge cases.
+
+---
+
+## 🧠 Machine Learning Round
+
+This round focused on both theory and implementation:
+- Building a **CNN from scratch**
+- In-depth discussion on **ML algorithms**
+- Explaining **mathematical foundations** behind models
+
+---
+
+## 🌟 Key Takeaways
+
+- **Adaptability is key** – Google's interviews emphasize **collaboration**, **clarity of thought**, and **responsiveness to feedback**, not just correct answers.
+- **Preparation matters**, but evolving your approach in real-time is equally important.
+- Be ready to **communicate** your thinking and **justify your decisions**.
+---
