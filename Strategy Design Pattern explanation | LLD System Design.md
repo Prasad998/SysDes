@@ -1,4 +1,5 @@
 
+[**OG KickAss WEBSITE -  Refactoring GURU**](https://refactoring.guru/design-patterns)
 # Design Patterns Study Guide
 
 ## 1. Factory Method Pattern
