@@ -94,11 +94,11 @@ assert(db1 == db2); // true
 ```cpp
 class Database {
 private:
-    static Database* instance;
-    Database() {} // Private constructor
+    static Database* instance;            // Step -1 Create a static Instance
+    Database() {}                         // Step-2  Create a Private constructor
 
 public:
-    static Database* getInstance() {
+    static Database* getInstance() {      // Step-3 Create a static Method (getInstance())
         // Write your code here
     }
     
